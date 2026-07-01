@@ -76,8 +76,6 @@ The best prompt in the world won't save a cluttered context. Often, the most pow
 
 ---
 
-📎 **Download the full-resolution diagram:** [calibrating-system-prompt.png](images/calibrating-system-prompt.png)
-
 *Originally published on [LinkedIn](https://www.linkedin.com/pulse/real-bottleneck-ai-agents-isnt-model-its-context-michael-robinson-n3aac/), June 28, 2026.*
 
 *© 2026 Michael Robinson. This article and its images are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — reuse with attribution.*
