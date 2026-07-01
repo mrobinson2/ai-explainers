@@ -1,11 +1,11 @@
 # AI Explainers
 
-Plain-language explainers and high-resolution visuals on practical AI
-architecture and agent patterns, written for IT leaders, architects, engineers,
-and security teams. Each article is self-contained Markdown with print-ready
-diagrams (PNG + PDF), free to read, download, and reuse with attribution.
+Plain-language explainers on practical AI architecture and agent patterns, 
+written for IT leaders, architects, engineers, and security teams. 
+Each article is self-contained Markdown free to read, download, 
+and reuse with attribution.
 
-New explainers are added over time — this repo is the canonical home for the
+New explainers are added over time - this repo is the canonical home for the
 full-resolution versions of the visuals shared on LinkedIn.
 
 ## Contents
@@ -15,7 +15,7 @@ full-resolution versions of the visuals shared on LinkedIn.
 
 ## How to download
 
-- **Read on GitHub** — open any article folder and its `README.md` renders in your browser.
+- **Read on GitHub** - open any article folder and its `README.md` renders in your browser.
 - **Download individual files** — open an image or PDF, then use the **Download** button (for PNGs/PDFs, the "..." / download icon on the file page) to grab the full-resolution original.
 - **Grab the whole repo as a ZIP** — click the green **Code** button on the repo home page → **Download ZIP**.
 - **Clone it** — `git clone https://github.com/mrobinson2/ai-explainers.git`
@@ -26,10 +26,6 @@ This repository is **dual-licensed**:
 
 - **Articles and images** (Markdown, PNG, PDF, and other diagrams) are licensed under **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** — see [LICENSE-CONTENT.md](LICENSE-CONTENT.md). You may share and adapt them for any purpose, including commercially, **with attribution**.
 - **Any code or scripts** are licensed under the **[MIT License](LICENSE)**.
-
-Suggested attribution:
-
-> "Mixture of Experts vs. Mixture of Agents" by Michael Robinson, licensed under CC BY 4.0 — https://github.com/mrobinson2/ai-explainers
 
 ## About
 
