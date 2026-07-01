@@ -32,6 +32,6 @@ Suggested attribution:
 
 ## About
 
-By **Michael Robinson**. Connect on LinkedIn: `<add your LinkedIn URL here>`
+By **Michael Robinson**. Connect on LinkedIn: https://www.linkedin.com/in/mrobinson2
 
 © 2026 Michael Robinson.
