@@ -11,6 +11,7 @@ full-resolution versions of the visuals shared on LinkedIn.
 ## Contents
 
 - **[Mixture of Experts vs. Mixture of Agents](articles/mixture-of-experts-vs-mixture-of-agents/)** — one improves the model, the other improves the answer. Where each sits in the AI stack, why the distinction matters for architecture and delivery decisions, and five common sub-patterns of Mixture of Agents. Includes three high-res diagrams and a print-ready PDF.
+- **[The Real Bottleneck for AI Agents Isn't the Model. It's the Context.](articles/context-engineering/)** — why context, not the model, is usually the limiting factor for agents. Prompt engineering vs. context engineering, the "context rot" problem, the Goldilocks system prompt, and what good context engineering looks like in practice.
 
 ## How to download
 
