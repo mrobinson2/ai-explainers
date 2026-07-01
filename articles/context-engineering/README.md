@@ -1,10 +1,12 @@
 # The Real Bottleneck for AI Agents Isn't the Model. It's the Context.
 
+![Prompt engineering (for single-turn queries) vs. context engineering for agents — the full operating environment an agent's context window needs](images/prompt-engineering-vs-context-engineering.png)
+
 The more I work with agents, the more convinced I am that the model is rarely the actual bottleneck. It's the workspace we give it.
 
 For the last couple of years, most of the discussion has been about prompt engineering - getting the wording right, using the right structure, telling the model to think step by step. That still matters for simple questions. But once you start building agents that use tools, maintain state, follow multi-step processes, or work across long-running tasks, prompt engineering stops being enough.
 
-At that point, the real work becomes context engineering.
+> At that point, the real work becomes context engineering.
 
 Not just "What do I ask the model?" but instead:
 
@@ -29,7 +31,7 @@ That's a different mindset. It moves you from "How much can I give it?" to "What
 
 ## Prompt engineering vs. context engineering
 
-Prompt engineering is mostly about wording. Context engineering is about the operating environment.
+> Prompt engineering is mostly about wording. Context engineering is about the operating environment.
 
 A good prompt says: "Here's what I want you to do." Context says: "Here's the role, the goal, the relevant history, the available tools, the current state, the constraints, and the information you should actually use to decide what to do next."
 
@@ -58,7 +60,7 @@ The better systems I've seen tend to do a few things consistently:
 * They retrieve information just in time. Instead of dumping every document, policy, runbook, and chat thread into context upfront, stronger systems let the agent pull what it needs when it needs it. That's closer to how people actually work. You don't memorize your entire inbox before answering one email. Agents shouldn't have to carry everything either.
 * They maintain working memory across long tasks. For research, migrations, incident investigations, or multi-hour workflows, the model doesn't need the entire history in active context. It needs a useful summary of what's been tried, what was decided, what evidence matters, and what's still unresolved. External notes, state files, and summaries let the system carry forward the important parts without dragging the whole conversation behind it.
 
-Sometimes the model doesn't need to get smarter. The system around it just needs to get better at managing context.
+> Sometimes the model doesn't need to get smarter. The system around it just needs to get better at managing context.
 
 ## The real skill
 
@@ -66,7 +68,7 @@ This isn't just relevant if you're building agents. Anyone using AI tools for dr
 
 Models will keep getting better. Context windows will keep growing. Tool use will improve. But I don't think the core constraint disappears. Attention is still finite. The model still has to decide what matters, and the quality of that decision depends heavily on the context we give it.
 
-So the real skill isn't just learning how to prompt. It's learning how to curate.
+> So the real skill isn't just learning how to prompt. It's learning how to curate.
 
 What belongs in the model's attention right now? What should be stored somewhere else? What should be retrieved later? What should be summarized or deleted entirely?
 
